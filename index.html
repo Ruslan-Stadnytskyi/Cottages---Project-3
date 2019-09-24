@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 3</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?&callback=initMap">
+    </script>
+</head>
+<body class="body">
+<div class="to-top">
+    <div class="top-inner">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<div class="mobile-menu-btn">
+    <a class="open-menu" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+</div>
+<div class="side-menu">
+    <nav>
+        <ul>
+            <li><a class="close-menu" href="#header">HOME</a></li>
+            <li><a class="close-menu" href="#cottages">COTTAGES</a></li>
+            <li><a class="close-menu" href="#experience">ABOUT</a></li>
+            <li><a class="close-menu" href="#contact-us">CONTACT</a></li>
+        </ul>
+    </nav>
+    <span class="fader"></span>
+</div>
+<div id="wrapper">
+    <header id="header">
+        <div class="inner-header">
+            <a class="logo" href="#">
+                <img alt="" src="images/logo-01.png"></a>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#cottages">COTTAGES</a></li>
+                    <li><a href="#experience">ABOUT</a></li>
+                    <li><a href="#contact-us">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <ul class="lang">
+                <li><a href="#">IS</a></li>
+                <li class="active"><a href="#">EN</a></li>
+                <li><a href="#">DE</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <article>
+        <section id="visual">
+            <div class="shadow">
+            </div>
+            <div class="title">
+                <h1>Experience Icelandic nature </h1>
+            </div>
+        </section>
+        <section id="cottages">
+            <div class="container">
+                <h2>Cottages in the wild</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
+                </p>
+                <a href="#">More info</a>
+
+            </div>
+        </section>
+        <section id="experience">
+            <div class="container">
+                <div class="title-experience">
+                    <h2>Experience the wild life</h2></div>
+                <div class="text-experience">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea.</p>
+                    <a href="#">More info</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="wild-life">
+            <div class="shadow">
+            </div>
+            <div class="container">
+
+                <h2>Experience the wild life</h2>
+
+            </div>
+        </section>
+        <section id="Location">
+            <div class="container">
+                <h2>Location & activities</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+
+            </div>
+        </section>
+        <section>
+            <div class="map-cont">
+                <div id="map"></div>
+            </div>
+        </section>
+        <section id="contact-us">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. </p>
+                <form action="#">
+                    <div class="inner-form">
+                        <label for="name-label">Name*</label>
+                        <input class="form-control" id="name-label"
+                               type="text">
+                        <label for="email-label">Email address*</label>
+                        <input class="form-control" id="email-label"
+                               type="email">
+                        <label for="message-label">Message</label>
+                        <textarea class="form-control"
+                                  id="message-label"></textarea>
+                        <div class="submit">
+                            <input class="button-sub"
+                                   type="submit" value="Send Message">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </article>
+    <footer id="footer">
+        <div class="in-footer">
+            <img alt="###" src="images/logo-02.png">
+            <nav class="foot-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Houses</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <p>Söðulshölt, 123 Borgarnes - info@sodulsholt.is
+                - +354 588 5522</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
